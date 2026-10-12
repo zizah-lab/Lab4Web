@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="kontak.html">Kontak</a>
+            <a href="about.html" class="active">About</a>
+        </nav>
+        <section id="hero">
+            <h1>Tentang Saya</h1>
+            <p>Halo, saya Azizah Rachmatania, biasa dipanggil Ziza. Halaman ini berisi
+                perkenalan singkat, keahlian yang sedang saya pelajari, dan beberapa hasil
+                praktikum yang sudah saya kerjakan.</p>
+        </section>
+        <section id="wrapper">
+            <section id="main">
+                <article class="entry">
+                    <h2>Deskripsi</h2>
+                    <img src="https://dummyimage.com/150/7b8a70/fff.png&text=Foto" alt="Foto profil">
+                    <p>Saya mahasiswa Teknik Informatika di Universitas Pelita Bangsa, Cikarang.
+                        Saat ini saya sedang mendalami pemrograman web, mulai dari struktur HTML,
+                        styling dengan CSS, sampai pembuatan layout halaman.</p>
+                    <p class="spasi">Selain web, saya juga mempelajari basis data, pemrograman Java,
+                        dan aljabar linear. Saya suka mengerjakan praktikum langkah demi langkah
+                        supaya setiap konsep benar-benar dipahami.</p>
+                </article>
+
+                <hr class="divider">
+
+                <article class="entry">
+                    <h2>Keahlian</h2>
+                    <ul class="skills">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                        <li>Git &amp; GitHub</li>
+                    </ul>
+                </article>
+
+                <hr class="divider">
+
+                <h2 class="judul-portfolio">Portfolio</h2>
+                <div class="row">
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/db7d25/fff.png&text=Box" alt="Box Element" class="image-circle">
+                        <h3>Box Element</h3>
+                        <p>Latihan CSS float dan clearfix menggunakan tiga box berwarna.</p>
+                        <a href="../lab4_box.html" class="btn btn-default">Lihat</a>
+                    </div>
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/3e73e6/fff.png&text=Layout" alt="Layout Sederhana" class="image-circle">
+                        <h3>Layout Sederhana</h3>
+                        <p>Layout web dengan header, navigasi, hero, konten, sidebar, dan footer.</p>
+                        <a href="home.html" class="btn btn-default">Lihat</a>
+                    </div>
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/71e6d4/fff.png&text=Kontak" alt="Halaman Kontak" class="image-circle">
+                        <h3>Halaman Kontak</h3>
+                        <p>Halaman dengan form isian nama, email, dan pesan.</p>
+                        <a href="kontak.html" class="btn btn-default">Lihat</a>
+                    </div>
+                </div>
+            </section>
+            <aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Profil Singkat</h3>
+                    <ul>
+                        <li class="info"><strong>Nama</strong><br>Azizah Rachmatania</li>
+                        <li class="info"><strong>Program Studi</strong><br>Teknik Informatika</li>
+                        <li class="info"><strong>Kampus</strong><br>Universitas Pelita Bangsa</li>
+                    </ul>
+                </div>
+                <div class="widget-box">
+                    <h3 class="title">Menu Cepat</h3>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="artikel.html">Artikel</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+        <footer>
+            <p>&copy; 2026 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
